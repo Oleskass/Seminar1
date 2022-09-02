@@ -43,3 +43,22 @@ string inputLine = Console.ReadLine()??"";
     //  default: outDayOfWeek = "It's not a day of the week."; break;
     // }
     // Console.WriteLine(outDayOfWeek);
+
+
+
+    // string? inputLine = Console.ReadLine();
+
+    // if (inputLine != null)
+    // {
+    //     int inputDayOfWeek = int.Parse(inputLine);
+
+
+    //  string outDayOfWeek = string.Empty; //""
+
+    // outDayOfWeek = System.Globalization.CultureInfo.GetCultureInfo("eng-ENG").DateTimeFormat.GetDayName((DayOfWeek)Enum.GetValues(typeof(DayOfWeek)).GetValue(inputDayOfWeek));
+
+
+
+    // Console.WriteLine(outDayOfWeek);
+
+    // }
