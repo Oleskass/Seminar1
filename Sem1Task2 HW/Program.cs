@@ -6,13 +6,16 @@
 //  a = -9 b = -3 -> max = -3
 //====================================================
 
+//очистка окна терминала при запуске программы
 Console.Clear();
 
+//ввод данных пользователем и null safety
 Console.Write("Помогу узнать максимум и минимум из двух чисел!:) \nВведите первое число: ");
 string inputLineA = Console.ReadLine() ?? "";
 Console.Write("Введите второе число: ");
 string inputLineB = Console.ReadLine() ?? "";
 
+//преобразуем строку в число
 int inputNumberA = int.Parse(inputLineA);
 int inputNumberB = int.Parse(inputLineB);
 
